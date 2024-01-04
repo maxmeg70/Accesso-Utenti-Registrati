@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-4 col-sm-12 offset-lg-4">
+                <h1 class="text-primary">Accedi al tuo account</h1>
+                <h3 class="mt-5"><u>**Clienti registrati**</u></h3>
+                <div class="mt-4">
+                    <label for="email" class="form-label">Email*</label>
+                    <input type="email" class="form-control" id="email" autofocus>
+                    <span id="verificaMail" class="text-danger" ></span>   
+                <div>
+                    <label class="form-label mt-3" for="password">Password*</label>
+                    <input type="password" class="form-control" id="password">
+                    <span id="verificaPassword" class="text-danger"></span>  
+                </div>
+                <div class="text-center mt-3">
+                    <button type="button" class="btn btn-danger mt-3 ps-5 pe-5 border-0" id="logIn">Accedi</button>
+                </div>
+                <br><br>
+                <div id="risposta" class="text-success text-center"></div>
+            </div>
+        </div>    
+    </div>
+<script src="assets/js/script.js"></script> 
+</body>
+</html>
